@@ -11,7 +11,7 @@ function getCommand($path)
             $command .= 'php ' . $path;
             break;
         case 'py':
-            $command .= 'python3 ' . $path;
+            $command .= 'python ' . $path;
             break;
         case 'js':
             $command .= 'node ' . $path;
